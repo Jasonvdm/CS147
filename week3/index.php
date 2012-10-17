@@ -12,12 +12,18 @@
 	</head>
 
 	<body>
-	
+
 		<div class="banner"></div>
 		
 		<table>
-		<!-- This is where we'll put all our content -->
-		
+		<?php 
+		include("config.php");
+		$query="";
+		$result = mysql_query($query);
+		while ($row = mysql_fetch_assoc($result)){
+
+		}
+		?>
 		</table>
 		
 		<script type="text/javascript">
