@@ -16,14 +16,6 @@
 		<div class="banner"></div>
 		
 		<table>
-<<<<<<< HEAD
-		<?php 
-		include("config.php");
-		$query="";
-		$result = mysql_query($query);
-		while ($row = mysql_fetch_assoc($result)){
-
-=======
 		<?php
 		include("config.php");
 		$query = "";
@@ -34,7 +26,6 @@
 		$result = mysql_query($query);
 		while ($row = mysql_fetch_assoc($result)) {
 			echo "<p>".$row["title"]."</p>";
->>>>>>> b3dacea09ff430bf4988b594f3098ed8216df35c
 		}
 		?>
 		</table>
